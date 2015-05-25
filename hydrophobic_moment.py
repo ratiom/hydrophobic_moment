@@ -176,7 +176,7 @@ for fn in file_names:
     print "Ave Estat"
     print average_estat
 #Equation 1
-    hm = numpy.empty([1,3])
+    hm = numpy.array([0, 0, 0])
     for n in ta:
         triangle_estat_sum = 0
         estats = []
